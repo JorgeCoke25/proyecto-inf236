@@ -40,3 +40,8 @@
   margin: auto;
   margin-top: 1em;
 }
+.footer{
+  margin-top: 3rem;
+  border: 2px solid;
+  background-color: rgba(14, 112, 131);
+}
