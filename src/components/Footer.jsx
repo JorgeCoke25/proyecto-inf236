@@ -23,8 +23,8 @@ function Footer() {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2);" }}
       >
         © 2021 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">
-          institucionuwu.com
+        <a class="text-dark" href="#!">
+          colegiocoquimbano.com
         </a>
       </div>
     </div>

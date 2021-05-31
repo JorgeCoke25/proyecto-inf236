@@ -1,7 +1,7 @@
 import './App.css';
+import Cursos from './components/Cursos';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import Noticias from './components/Noticias';
 import Titulo from './components/Titulo';
 
 function App() {
@@ -11,10 +11,11 @@ function App() {
       <hr></hr>
       <Titulo></Titulo>
       <hr></hr>
-      <Noticias></Noticias>
+      <Cursos/>
+      <hr></hr>
       <Footer/>
     </div>
   );
-}
+}     
 
 export default App;

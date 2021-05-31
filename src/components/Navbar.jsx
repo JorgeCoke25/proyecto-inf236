@@ -2,7 +2,7 @@ function navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#!">
           Colegio Coquimbano
         </a>
         <button
@@ -16,12 +16,20 @@ function navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+        <h2 className="Nombre-Alumno">Bienvenido, Alumno: Elon Musk</h2>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <button type="button" class="btn">
-            Iniciars Sesion
+            Mensajes 
+            <small style={{backgroundColor: "red",marginLeft:"3px",fontSize:"1rem"}}>3</small>
           </button>
           <button type="button" class="btn">
-            Registrarse
+            Horario
+          </button>
+          <button type="button" class="btn">
+            Calendario
+          </button>
+          <button type="button" class="btn">
+            Notas 
           </button>
         </div>
       </div>
