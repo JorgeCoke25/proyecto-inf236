@@ -3,7 +3,7 @@ function navbar() {
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Institucion uwu
+          Colegio Coquimbano
         </a>
         <button
           className="navbar-toggler"
