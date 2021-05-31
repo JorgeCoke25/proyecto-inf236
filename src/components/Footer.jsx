@@ -24,7 +24,7 @@ function Footer() {
       >
         © 2021 Copyright:
         <a class="text-dark" href="https://mdbootstrap.com/">
-          institucionuwu.com
+          colegiocoquimbano.com
         </a>
       </div>
     </div>
