@@ -1,10 +1,10 @@
 import React from 'react';
-import image6 from '../imagenes/Bio.jpg';
-import image4 from '../imagenes/Fi.jpg';
-import image3 from '../imagenes/Hi.jpg';
-import image2 from '../imagenes/Le.jpg';
-import image1 from '../imagenes/Ma.jpg';
-import image5 from '../imagenes/Qui.jpeg';
+import image6 from '../../imagenes/Bio.jpg';
+import image4 from '../../imagenes/Fi.jpg';
+import image3 from '../../imagenes/Hi.jpg';
+import image2 from '../../imagenes/Le.jpg';
+import image1 from '../../imagenes/Ma.jpg';
+import image5 from '../../imagenes/Qui.jpeg';
 import Curso from './Curso';
 
 

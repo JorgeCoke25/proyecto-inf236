@@ -43,6 +43,16 @@ function navbar() {
                 </a>
               </div>
             </Route>
+            <Route path="/alumno">
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <a  class="btn" role="button" href="/alumno/calendario">
+                  Calendario
+                </a>
+                <a  class="btn" role="button" href="/alumno">
+                  Cursos
+                </a>
+              </div>
+            </Route>
           </Switch>
         </div>
       </nav>

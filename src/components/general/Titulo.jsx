@@ -1,6 +1,6 @@
 import React from 'react'
 
-function titulo() {
+function Titulo() {
     return (
         <div className="titulo">
             <h1>Colegio Coquimbano</h1>
@@ -8,4 +8,4 @@ function titulo() {
     )
 }
 
-export default titulo
+export default Titulo
