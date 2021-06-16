@@ -64,3 +64,4 @@ const cards = [
         </div>
         );
       }
+export default Cursos;

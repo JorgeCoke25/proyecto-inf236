@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 function navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Colegio Coquimbano
         </a>
         <button
@@ -17,9 +19,9 @@ function navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <button type="button" class="btn">
+          <a  class="btn" role="button" href="/alumno">
             Iniciar Sesion
-          </button>
+          </a>
           <button type="button" class="btn">
             Registrarse
           </button>
