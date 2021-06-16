@@ -18,7 +18,7 @@ function navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <button type="button" class="btn">
-            Iniciars Sesion
+            Iniciar Sesion
           </button>
           <button type="button" class="btn">
             Registrarse
