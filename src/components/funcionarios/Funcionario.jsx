@@ -12,6 +12,8 @@ function Funcionario() {
             <switch>
                 <Route path="/funcionario">
                     <div className="funcionario">
+                        <Titulo/>
+                        <hr/>
                     </div>
                 </Route>
                 <Route path="/funcionario/calendario_sanitizacion">
