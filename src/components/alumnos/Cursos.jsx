@@ -54,9 +54,9 @@ const cards = [
             <br/>
           <div className="container d-flex justify-content-center align-items-center">
             <div className="row">
-              {cards.map(({ title, image, profesor, id }) => (
+              {cards.map(({ title, image, profesor, id },index) => (
                 <div className="col-md-4" key={id}>
-                  <Curso imageSource={image} title={title} profesor={profesor} />
+                  <Curso imageSource={image} title={title} profesor={profesor} card={cards[index]} />
                 </div>
               ))}
             </div>

@@ -5,6 +5,10 @@ import Noticias from './components/home/Noticias';
 import Titulo from './components/general/Titulo';
 import Alumno from './components/alumnos/Alumno';
 
+import {Provider} from 'react-redux'
+import generateStore from './redux/store';
+
+
 
 import {
   BrowserRouter as Router,
@@ -14,7 +18,9 @@ import {
 
 
 function App() {
+  const store = generateStore();
   return (
+    <Provider store={store}>
     <Router>
       <div className="App">
         <Navbar/>
@@ -34,7 +40,8 @@ function App() {
         <Footer/>
       </div>
     </Router>
-  );
+    </Provider>
+  )
 }
 
 export default App;

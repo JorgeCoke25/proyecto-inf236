@@ -9,7 +9,7 @@ function navbar() {
     <Router>
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/home">
+          <a className="navbar-brand" href="/">
             Colegio Coquimbano
           </a>
           <button
@@ -24,7 +24,17 @@ function navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <Switch>
-            <Route path="/home">
+          <Route path="/alumno">
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <a  class="btn" role="button" href="/alumno/calendario">
+                  Calendario
+                </a>
+                <a  class="btn" role="button" href="/alumno">
+                  Cursos
+                </a>
+              </div>
+            </Route>  
+            <Route path="/">
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <a  class="btn" role="button" href="/apoderado">
                   Apoderado
@@ -40,16 +50,6 @@ function navbar() {
                 </a>
                 <a  class="btn" role="button" href="/funcionario">
                   Funcionario
-                </a>
-              </div>
-            </Route>
-            <Route path="/alumno">
-              <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <a  class="btn" role="button" href="/alumno/calendario">
-                  Calendario
-                </a>
-                <a  class="btn" role="button" href="/alumno">
-                  Cursos
                 </a>
               </div>
             </Route>

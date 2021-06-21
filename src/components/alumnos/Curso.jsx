@@ -1,7 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {useDispatch} from 'react-redux'
+import { obtenerCursoAccion } from "../../redux/cursoDucks";
+import { Link } from "react-router-dom";
 
-function Curso({ imageSource, title, text, profesor }) {
+
+function Curso({ imageSource, title, profesor,card }) {
+  const dispatch = useDispatch();
   return (
     <div className="card text-center bg-dark animate__animated animate__fadeInUp">
       <div className="overflow">
@@ -14,14 +19,13 @@ function Curso({ imageSource, title, text, profesor }) {
             ? profesor
             : "A."}
         </p>
-        <a
-          href="#!"
-          target="_blank"
+        <Link
+          to={`/alumno/${title}`}
           className="btn btn-outline-secondary border-0"
-          rel="noreferrer"
+          onClick={()=>dispatch(obtenerCursoAccion(card))}
         >
           Ir a {title}
-        </a>
+        </Link>
       </div>
     </div>
   );
