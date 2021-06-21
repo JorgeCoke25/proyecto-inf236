@@ -4,6 +4,7 @@ import Navbar from './components/general/Navbar';
 import Noticias from './components/home/Noticias';
 import Titulo from './components/general/Titulo';
 import Alumno from './components/alumnos/Alumno';
+import Funcionario from './components/funcionarios/Funcionario';
 
 import {Provider} from 'react-redux'
 import generateStore from './redux/store';
@@ -30,11 +31,14 @@ function App() {
             <Route path="/alumno">
                 <Alumno/>
             </Route>
+            <Route path="/funcionario">
+              <Funcionario/>  
+            </Route> 
             <Route path="/">  
               <Titulo/>
               <hr/>
               <Noticias/>
-            </Route> 
+            </Route>
           </Switch>
         </div>
         <Footer/>

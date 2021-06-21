@@ -34,6 +34,22 @@ function navbar() {
                 </a>
               </div>
             </Route>  
+            <Route path="/funcionario">
+              <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <a  class="btn" role="button" href="/funcionario/calendario_sanitizacion">
+                  Calendario de sanitizacion
+                </a>
+                <a  class="btn" role="button" href="/funcionario/horario_sala">
+                  Horarios y salas
+                </a>
+                <a  class="btn" role="button" href="/funcionario/bodega">
+                  Bodega
+                </a>
+                <a  class="btn" role="button" href="/funcionario">
+                  Inicio
+                </a>
+              </div>
+            </Route>
             <Route path="/">
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <a  class="btn" role="button" href="/apoderado">
